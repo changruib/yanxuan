@@ -9,10 +9,10 @@ import './assets/iconfont/iconfont.css'
 import axios from 'axios'
 import ToastPlugin from '@/plugins/Toast.js'
 import LoadingPlugin from '@/plugins/Loading.js'
-import VConsole from 'vconsole'
+// import VConsole from 'vconsole'
 
 // eslint-disable-next-line no-new
-new VConsole()
+// new VConsole()
 Vue.use(LoadingPlugin)
 Vue.use(ToastPlugin)
 

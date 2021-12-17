@@ -101,7 +101,7 @@ const routes = [{
   }
 },
 {
-  path: '/categorydetail/:cateid/:subid',
+  path: '/categorydetail/:cateId/:subId',
   name: 'CategoryDetail',
   // component: CategoryDetail
   // component: resolve => require(['../views/CategoryDetail.vue'], resolve)

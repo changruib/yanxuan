@@ -45,6 +45,7 @@ export default {
   methods: {
     onChange (index) {
       this.positionId = index
+      console.log(this.positionId)
     },
     async getCategory () {
       this.$showLoading(true)
